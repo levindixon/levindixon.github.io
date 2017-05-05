@@ -23,14 +23,14 @@ body {
 }
 
 ul {
-    margin: 117px 0 125px 107px;
+    margin: 12.7vmin 0 13.5vmin 11.6vmin;
     padding: 0; 
 }
 
 li {
     list-style-type: none;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 2.2vmin;
 }
 
 a {
@@ -42,7 +42,7 @@ a {
 }
 
 p {
-    font-size: 54px;
-    line-height: 68px;
-    margin-left: 107px;
+    font-size: 5.9vmin;
+    line-height: 7.4vmin;
+    margin-left: 11.6vmin;
 }
