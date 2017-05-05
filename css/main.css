@@ -1,6 +1,3 @@
-/* Fonts
-   === */
-
 @font-face {
   font-family: "LLCircularWeb";
   font-style: normal;
@@ -39,6 +36,10 @@ a {
     text-decoration: none;
     color: #fff;
     letter-spacing: 1.2px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 p {
