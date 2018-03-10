@@ -6,44 +6,42 @@
   src: url("../fonts/lineto-circular-bold-s.eot?#iefix") format("embedded-opentype"), url("../fonts/lineto-circular-bold-s.woff") format("woff"), url("../fonts/lineto-circular-bold-s.ttf") format("truetype"), url("../fonts/lineto-circular-bold-s.svg#LLCircularWeb-Bold") format("svg");
 }
 
-
 body {
-    background-color: #111;
-    background-image: url('../img/bg.jpg');
-    background-position: 100% 0;
-    background-size: 56%;
-    background-repeat: no-repeat;
-    padding-bottom: 100px;
-    font-family: "LLCircularWeb", sans-serif;
-    font-weight: bold;
-    color: #fff;
+  background-color: #ffa801;
+  background-position: 100% 0;
+  background-size: 56%;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  font-family: "LLCircularWeb", sans-serif;
+  font-weight: bold;
+  color: #fff;
 }
 
 ul {
-    margin: 12.7vmin 0 13.5vmin 11.6vmin;
-    padding: 0; 
+  margin: 12.7vmin 0 13.5vmin 11.6vmin;
+  padding: 0;
 }
 
 li {
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 2.2vmin;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 2.2vmin;
 }
 
 a {
-    font-size: 10px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff;
-    letter-spacing: 1.2px;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1.2px;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 p {
-    font-size: 5.9vmin;
-    line-height: 7.4vmin;
-    margin-left: 11.6vmin;
+  font-size: 5.9vmin;
+  line-height: 7.4vmin;
+  margin-left: 11.6vmin;
 }
