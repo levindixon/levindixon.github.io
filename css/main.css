@@ -1,39 +1,33 @@
-@font-face {
-  font-family: "LLCircularWeb";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/lineto-circular-bold-s.eot");
-  src: url("../fonts/lineto-circular-bold-s.eot?#iefix") format("embedded-opentype"), url("../fonts/lineto-circular-bold-s.woff") format("woff"), url("../fonts/lineto-circular-bold-s.ttf") format("truetype"), url("../fonts/lineto-circular-bold-s.svg#LLCircularWeb-Bold") format("svg");
-}
-
 body {
-  background-color: #ffa801;
-  background-position: 100% 0;
-  background-size: 56%;
-  background-repeat: no-repeat;
-  padding-bottom: 100px;
-  font-family: "LLCircularWeb", sans-serif;
-  font-weight: bold;
-  color: #fff;
+  padding: 0 12vmin;
+
+  background-color: #FFFFFF;
+
+  color: #333333;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 ul {
-  margin: 12.7vmin 0 13.5vmin 11.6vmin;
+  margin: 11vmin 0;
   padding: 0;
 }
 
 li {
-  list-style-type: none;
   display: inline-block;
   margin-right: 2.2vmin;
+
+  list-style-type: none;
 }
 
 a {
-  font-size: 10px;
-  text-transform: uppercase;
+  color: #0070C9;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.52947;
+  letter-spacing: -0.021em;
   text-decoration: none;
-  color: #fff;
-  letter-spacing: 1.2px;
 }
 
 a:hover {
@@ -41,7 +35,19 @@ a:hover {
 }
 
 p {
-  font-size: 5.9vmin;
-  line-height: 7.4vmin;
-  margin-left: 11.6vmin;
+  max-width: 500px;
+
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 1.10746;
+  letter-spacing: 0.004em;
+}
+
+@media only screen and (max-width: 735px) {
+  p {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
 }
