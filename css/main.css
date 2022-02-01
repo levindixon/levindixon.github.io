@@ -35,12 +35,14 @@ a:hover {
 }
 
 p {
-  max-width: 500px;
-
   font-weight: 500;
   font-size: 56px;
   line-height: 1.10746;
   letter-spacing: 0.004em;
+}
+
+.max-width {
+  max-width: 500px;
 }
 
 @media only screen and (max-width: 735px) {
